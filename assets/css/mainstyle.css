@@ -19,12 +19,10 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 nav ul li:first-child {
   margin-left: 100px;
   margin-right: 60px;
 }
-
 nav ul li:last-child {
   margin-right: 300px;
   margin-left: 60px;
@@ -34,4 +32,21 @@ nav ul li:last-child {
   background-color: #5ab4a8;
   color: white;
   display: flex;
+  height: 141px;
+  gap: 74px;
+  align-items: center;
+  padding-left: 145px;
+}
+.aqua h3,
+i {
+  font-size: 25px;
+}
+
+.links {
+  height: 157px;
+  background-color: #4f14a0;
+}
+
+footer {
+  background-color: #ff9964;
 }
