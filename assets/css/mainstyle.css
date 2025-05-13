@@ -32,7 +32,7 @@ nav ul li:last-child {
   background-color: #5ab4a8;
   color: white;
   display: flex;
-  height: 141px;
+  height: 224px;
   gap: 74px;
   align-items: center;
   padding-left: 145px;
@@ -43,10 +43,11 @@ i {
 }
 
 .links {
-  height: 157px;
+  height: 249px;
   background-color: #4f14a0;
 }
 
 footer {
   background-color: #ff9964;
+  height: 59px;
 }
