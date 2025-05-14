@@ -7,7 +7,7 @@
   list-style-type: none;
   text-decoration: none;
 }
-
+/*Nav*/
 nav ul,
 a {
   background-color: #ff9964;
@@ -28,6 +28,7 @@ nav ul li:last-child {
   margin-left: 60px;
 }
 
+/*Aqua - Følg os*/
 .aqua {
   background-color: #5ab4a8;
   color: white;
@@ -42,12 +43,60 @@ i {
   font-size: 25px;
 }
 
+/*Links*/
 .links {
   height: 249px;
   background-color: #4f14a0;
+  color: white;
+  padding: 30px 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.links .info {
+  max-width: 200px;
 }
 
+.links h4 {
+  margin: 8px 0px 10px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.links p {
+  margin: 8px 0px 10px 40px;
+  line-height: 1.4;
+  font-size: 12px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 16px;
+}
+
+.links ul li {
+  margin-bottom: 25px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.links ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 23px;
+  text-transform: uppercase;
+}
+
+/*Footer*/
 footer {
   background-color: #ff9964;
+  color: white;
   height: 59px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
