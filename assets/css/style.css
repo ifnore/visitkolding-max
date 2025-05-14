@@ -87,4 +87,10 @@
 .events {
   background-color: #441dac;
   height: 722px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 60px;
+  color: white;
 }
