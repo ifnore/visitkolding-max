@@ -77,15 +77,68 @@
 
 .events {
   background-color: #441dac;
-  height: 722px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 60px 40px;
-  gap: 60px;
   color: white;
+  padding: 50px;
+  font-family: Arial, sans-serif;
 }
 
+.events h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.event {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.event-date {
+  width: 60px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.event-date .day {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.event-date .month {
+  display: block;
+  font-size: 14px;
+}
+
+.event-text {
+  flex-grow: 1;
+  max-width: 55%;
+}
+
+.event-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.event-text .intro {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.event-image {
+  width: 30%;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  background-color: #eee;
+}
+
+/*map*/
 .map {
   background-image: url(/assets/img/Scroll\ Group\ 1.png);
   height: 535px;

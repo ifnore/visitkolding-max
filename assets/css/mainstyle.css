@@ -96,7 +96,8 @@ footer {
   color: white;
   height: 59px;
   display: flex;
-  padding-top: 20px;
+  padding: 20px;
   justify-content: space-between;
   align-items: flex-start;
+  font-size: 10px;
 }
