@@ -120,6 +120,7 @@
   font-size: 14px;
   line-height: 1.5;
   margin-top: 10px;
+  max-width: 500px;
 }
 
 .event-text .intro {
@@ -132,8 +133,8 @@
 }
 
 .event-image img {
-  width: 100%;
-  height: 100px;
+  width: 391px;
+  height: 167px;
   object-fit: cover;
   background-color: #eee;
 }
