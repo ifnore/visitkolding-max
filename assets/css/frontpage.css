@@ -1,0 +1,79 @@
+@import url("/assets/css/gallery.css");
+@import url("/assets/css/event.css");
+@import url("/assets/css/nav.css");
+@import url("/assets/css/footer.css");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Container layout */
+.explore {
+  display: flex;
+  width: 1200px;
+  height: 392px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left text section */
+.left {
+  flex: 1;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 20px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Right image grid section */
+.right {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.pic-flexwrap {
+  max-width: 712px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.pic-flexwrap article {
+  width: 100%;
+  max-width: 200px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.pic-flexwrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pic-flexwrap p {
+  font-size: 10px;
+  color: #000;
+  margin: 8px 0;
+}
