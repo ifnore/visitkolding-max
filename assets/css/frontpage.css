@@ -17,7 +17,7 @@
 .explore {
   display: flex;
   width: 1200px;
-  height: 392px;
+  height: 627px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -33,13 +33,13 @@
 }
 
 .left h5 {
-  font-size: 16px;
+  font-size: 27px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .left p {
-  font-size: 20px;
+  font-size: 15px;
   color: #777;
   line-height: 1.5;
 }
@@ -49,31 +49,28 @@
   flex: 2;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .pic-flexwrap {
-  max-width: 712px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 229px);
+  grid-template-rows: repeat(2, 230px);
   gap: 20px;
-  justify-content: space-between;
 }
 
 .pic-flexwrap article {
-  width: 100%;
-  max-width: 200px;
-  background-color: #f0f0f0;
   text-align: center;
 }
 
 .pic-flexwrap img {
-  width: 100%;
-  height: auto;
-  display: block;
+  height: 190px;
+  width: 229px;
+  object-fit: cover;
 }
 
 .pic-flexwrap p {
+  margin-top: 5px;
   font-size: 10px;
-  color: #000;
-  margin: 8px 0;
+  color: #111;
 }
