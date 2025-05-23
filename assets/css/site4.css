@@ -11,22 +11,3 @@
   list-style-type: none;
   text-decoration: none;
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.main h1,
-h2,
-p {
-  max-width: 747px;
-}
-.main p {
-  padding-bottom: 83px;
-}
-.main h2 {
-  padding-top: 48px;
-}
