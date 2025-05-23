@@ -11,13 +11,14 @@
   list-style-type: none;
   text-decoration: none;
 }
+
 .grid {
   padding: 27px 91px 35px 120px;
-  background-color: #4f14a0;
+  background-color: var(--dark-background);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, auto);
-  color: white;
+  color: var(--light-color);
 }
 
 .grid h2,

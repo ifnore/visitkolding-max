@@ -11,6 +11,7 @@
   list-style-type: none;
   text-decoration: none;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,8 +35,8 @@ img {
 }
 
 .text {
-  background-color: #2d1fa0;
-  color: white;
+  background-color: var(--dark-background);
+  color: var(--light-color);
   flex-direction: column;
   text-align: left;
   display: flex;

@@ -1,8 +1,8 @@
 /*Events*/
 
 .events {
-  background-color: #441dac;
-  color: white;
+  background-color: var(--dark-background);
+  color: var(--font-color);
   padding: 50px;
   font-family: Arial, sans-serif;
 }

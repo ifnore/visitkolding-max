@@ -1,3 +1,8 @@
+:root {
+  --dark-background: #4f14a0;
+  --light-color: #ffffff;
+}
+
 /*Aqua - Følg os*/
 .aqua {
   background-color: #6fccd3;
@@ -18,8 +23,8 @@ i {
 
 /*Links*/
 .links {
-  background-color: #4f14a0;
-  color: white;
+  background-color: var(--dark-background);
+  color: var(--light-color);
   padding: 40px 80px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +72,7 @@ i {
 /*Footer*/
 footer {
   background-color: #ff9964;
-  color: white;
+  color: var(--light-color);
   height: 59px;
   display: flex;
   padding: 0 40px;
@@ -82,6 +87,6 @@ footer {
 }
 
 .footer-links a {
-  color: white;
+  color: var(--light-color);
   text-decoration: none;
 }

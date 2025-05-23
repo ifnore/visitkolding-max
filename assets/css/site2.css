@@ -13,8 +13,8 @@
 }
 
 .columns {
-  background-color: #441dac;
-  color: white;
+  background-color: var(--dark-background);
+  color: var(--light-color);
   min-height: 368px;
   columns: 3;
   display: flex;
