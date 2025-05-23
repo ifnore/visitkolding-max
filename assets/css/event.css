@@ -2,7 +2,7 @@
 
 .events {
   background-color: var(--dark-background);
-  color: var(--font-color);
+  color: var(--light-color);
   padding: 50px;
   font-family: Arial, sans-serif;
 }
@@ -62,4 +62,41 @@
   height: 167px;
   object-fit: cover;
   background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  /* Events */
+  .events {
+    padding: 20px;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .event-image {
+    order: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .event-date {
+    order: 1;
+    width: 100%;
+  }
+
+  .event-text {
+    order: 2;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .event-image img {
+    width: 100%;
+    height: auto;
+  }
 }

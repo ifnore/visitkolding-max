@@ -74,3 +74,44 @@
   font-size: 12px;
   color: #111;
 }
+
+/*mobile grid*/
+
+@media (max-width: 768px) {
+  /* General container */
+  .explore {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .left {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .left h5 {
+    font-size: 22px;
+  }
+
+  .left p {
+    font-size: 14px;
+  }
+
+  .right {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .pic-flexwrap {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+
+  .pic-flexwrap img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -90,3 +90,46 @@ footer {
   color: var(--light-color);
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .aqua {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .aqua h3 {
+    padding: 0;
+    font-size: 20px;
+  }
+
+  /* Footer links */
+  .links {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .links .info,
+  .links ul {
+    margin: 10px 0;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+  }
+}

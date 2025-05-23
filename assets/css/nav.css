@@ -22,3 +22,25 @@ nav ul li:last-child {
   margin-right: 300px;
   margin-left: 60px;
 }
+@media (max-width: 768px) {
+  nav ul,
+  nav a {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li:first-child,
+  nav ul li:last-child {
+    margin: 0;
+  }
+
+  .map {
+    background-size: cover;
+    height: 300px;
+  }
+}

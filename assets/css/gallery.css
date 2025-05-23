@@ -86,3 +86,34 @@
   background-image: url(/assets/img/Scroll\ Group\ 1.png);
   height: 535px;
 }
+
+@media (max-width: 768px) {
+  /* Gallery grid */
+  .gallery {
+    display: grid;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(2, 240px);
+    grid-template-rows: repeat(13, 200px);
+    grid-template-areas:
+      "imgOne imgOne"
+      "imgOne imgOne"
+      "imgTwo imgThree"
+      "imgFour imgFour"
+      "imgFour imgFour"
+      "imgFive imgFive"
+      "imgSix imgSix"
+      "imgSix imgSix"
+      "imgSeven imgSeven"
+      "imgSeven imgSeven"
+      "imgEight imgNine"
+      "imgTen imgTen"
+      "imgTen imgTen";
+  }
+
+  .gallery section {
+    height: 200px;
+    background-size: cover;
+  }
+}
