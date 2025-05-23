@@ -1,6 +1,6 @@
 /*Aqua - Følg os*/
 .aqua {
-  background-color: #5ab4a8;
+  background-color: #6fccd3;
   color: white;
   display: flex;
   height: 224px;
@@ -10,54 +10,58 @@
 }
 .aqua h3,
 i {
-  font-size: 25px;
+  font-size: 28px;
+}
+.aqua h3 {
+  padding-right: 144px;
 }
 
 /*Links*/
 .links {
-  height: 249px;
   background-color: #4f14a0;
   color: white;
-  padding: 30px 2px;
+  padding: 40px 80px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
+
 .links .info {
-  max-width: 200px;
+  max-width: 250px;
+  margin-right: 40px;
 }
 
 .links h4 {
-  margin: 8px 0px 10px 40px;
-  font-size: 16px;
+  margin-bottom: 10px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .links p {
-  margin: 8px 0px 10px 40px;
+  margin: 0;
   line-height: 1.4;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .links ul {
   list-style: none;
   padding: 0;
-  margin: 0 16px;
+  margin: 0 20px;
 }
 
 .links ul li {
-  margin-bottom: 25px;
-  font-size: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .links ul li:first-child {
   font-weight: bold;
-  margin-bottom: 23px;
-  text-transform: uppercase;
+  text-transform: none;
+  margin-bottom: 15px;
 }
 
 /*Footer*/
@@ -66,8 +70,18 @@ footer {
   color: white;
   height: 59px;
   display: flex;
-  padding: 20px;
+  padding: 0 40px;
   justify-content: space-between;
-  align-items: flex-start;
-  font-size: 10px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
 }
