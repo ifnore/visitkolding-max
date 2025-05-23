@@ -12,6 +12,14 @@
     "imgSix imgSeven imgSeven imgFive imgFive"
     "imgSix imgEight imgNine imgNine imgTen";
 }
+.gallery section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 #imgOne {
   background-image: url("/assets/img/Placement Area.png");

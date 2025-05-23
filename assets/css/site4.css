@@ -11,3 +11,52 @@
   list-style-type: none;
   text-decoration: none;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  background-color: #2d1fa0;
+  color: white;
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+  padding: 48px 53px 45px 100px;
+}
+
+.text h2,
+.text p {
+  padding-left: 100px;
+  padding-right: 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text h2 {
+  padding-top: 48px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
