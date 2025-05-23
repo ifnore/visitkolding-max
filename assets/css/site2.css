@@ -49,6 +49,7 @@
 .image-full {
   grid-column: 1 / 3;
   justify-self: center;
+  width: 676px;
 }
 
 .text p {
